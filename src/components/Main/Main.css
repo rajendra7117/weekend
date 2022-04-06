@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.2rem;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.main .section-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1.5rem;
+}
+.section-2{
+    font-size: 3rem;
+}
