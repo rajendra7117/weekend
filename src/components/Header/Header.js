@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='header'>
         <span className='logo'>
-        <img src={logo}/>
+        <img src={logo} alt="Site logo"/>
         <h3>week-end</h3>
         </span>
         <span className='login'>

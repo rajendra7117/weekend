@@ -12,7 +12,7 @@ const ImageCard = ({img, text, placement}) => {
   >
     <div className='image-card'> 
 
-        <img src={img}/>
+        <img src={img} alt={text || "Card image"}/>
     </div>
     </Tippy>
   )
